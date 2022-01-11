@@ -1,0 +1,99 @@
+
+body{
+    font-family: 'Arimo' , sans-serif;
+    margin:0;
+    padding:0;
+}
+
+/*Partie header*/
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap:wrap;
+    margin: 10px 20px;
+}
+header a { 
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;       
+}
+header a:hover {
+    border-bottom: 1px solid black;
+}
+/*Fin de la partie header */
+
+/*Partie principale */
+ .main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 100px;
+ }
+ .main .form-group{
+     display: flex;
+     flex-direction: column;
+     width: 40%;
+    
+ }
+ .main .form-group input{
+     margin-top: 20px;
+     padding: 15px;
+     border-radius: 50px;
+     border: 1px solid #d1d1d1;
+     outline: none;
+     width : 100%;
+
+ }
+ .main .form-group input:hover, .main .form-group input:focus {
+    -webk-webkit-box-shadow: -8px -1px 19px -8px rgba(184,184,184,1);
+    -moz-box-shadow: -8px -1px 19px -8px rgba(184,184,184,1);
+    box-shadow: -8px -1px 19px -8px rgba(184,184,184,1);
+ }
+ .main .form-group label i{
+     float:right;
+     font-size: 20px;
+     margin-top: -35px;
+     margin-right: -15px;
+     position:relative;
+     cursor: pointer;
+     color: #5c5c5c;
+ }
+ .main .button{
+    margin-top: 40px;
+ }
+  .main .buttons buttons{
+      padding: 10px 20px;
+      background-color: #f0f0f0;
+      border:none;
+      border-radius:5px;
+      margin-right: 10px;
+      outline: none;
+      cursor: pointer;
+
+  }
+/*Fin de la partie princpale */
+
+/*Debut du pied de page */
+footer {
+    display:flex;
+    flex-direction:column;
+    
+}
+.footer-france{
+   margin: 30px 20px;
+}
+.footer-carbone {
+    align-self: center;
+}
+.footer-main{
+   display:flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+.footer-left{
+
+}
+.footer-right{
+
+}
